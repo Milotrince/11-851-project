@@ -1,0 +1,19 @@
+paths:
+  system_prompt: "/home/ttr/11-851-project/interface/prompt.txt"
+  skill_library: "/home/ttr/11-851-project/interface/skill_library.yaml"
+  eureka_output_base: "/home/ttr/11-851-project/interface/outputs/eureka"
+  isaacgym_output_base: "/home/ttr/Eureka/isaacgymenvs/isaacgymenvs/outputs/train"
+
+training:
+  default_task: "CartpoleSpin" # task to show on startup
+
+  # in code, replace: {description}, {task}, {skill_name}
+  # iteration is the number of eureka iterations to run
+  # num_samples is the number of reward samples to generate per run 
+
+  train_command: python /home/ttr/Eureka/eureka/eureka.py model="gpt-5" iteration=2 sample=2 env={env} env.description="{description}"
+  # in code, replace: {task}, {checkpoint}
+  test_command: python /home/ttr/Eureka/isaacgymenvs/isaacgymenvs/train.py test=True task={task} checkpoint={checkpoint} task.env.numEnvs=16 headless=True
+
+llm:
+  model: "gpt-4.1-mini"

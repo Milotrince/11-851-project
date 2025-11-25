@@ -1,0 +1,20 @@
+cartpole_balance_demo: 
+    policy_path: "/home/ttr/Eureka/isaacgymenvs/isaacgymenvs/outputs/train/2025-10-08_19-53-44/runs/Cartpole-2025-10-08_19-53-45/nn/Cartpole.pth"
+    policy_description: Only activate if explictly asked for the demo version. Balances a pole on a cart.
+    previous_reward_function: path/to/reward_function.py
+    environment: CartpoleSpin
+
+cartpole_spin_demo:
+    policy_path: "/home/ttr/Eureka/eureka/outputs/eureka/2025-10-08_21-33-18/policy-2025-10-08_21-33-34/runs/CartpoleSpinGPT-2025-10-08_21-33-34/nn/CartpoleSpinGPT.pth"
+    policy_description: "Only activate if explictly asked for the demo version. Spins the cartpole pole."
+    previous_reward_function: "path/to/reward_function.py"
+    environment: CartpoleSpin
+
+cartpole_spin_fast_demo: 
+    policy_path: "/home/ttr/Eureka/eureka/outputs/eureka/2025-10-08_21-33-18/policy-2025-10-08_21-33-34/runs/CartpoleSpinGPT-2025-10-08_21-33-34/nn/CartpoleSpinGPT.pth"
+    policy_description: "Only activate if explictly asked for the demo version. Spins the cartpole pole quickly."
+    previous_reward_function: "path/to/reward_function.py"
+    environment: CartpoleSpin
+
+
+    

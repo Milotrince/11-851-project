@@ -1,0 +1,42 @@
+cartpole_spin_clockwise:
+  environment: CartpoleSpin
+  policy_description: Control the cartpole to spin the pole continuously in the clockwise
+    direction.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-11_22-02-39/policy-2025-11-11_22-04-57/runs/CartpoleSpinGPT-2025-11-11_22-04-57/nn/last_CartpoleSpinGPT_ep_50.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-11_22-02-39/env_iter0_response0_rewardonly.py
+cartpole_spin_counterclockwise:
+  environment: CartpoleSpin
+  policy_description: Control the cartpole to spin the pole continuously in the counterclockwise
+    direction.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-11_22-02-39/policy-2025-11-11_22-04-57/runs/CartpoleSpinGPT-2025-11-11_22-04-57/nn/last_CartpoleSpinGPT_ep_50.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-11_22-02-39/env_iter0_response0_rewardonly.py
+cartpole_spin_fast_actual:
+  environment: CartpoleSpin
+  policy_description: Control the cartpole to spin the pole continuously in the clockwise
+    direction with maximum speed.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-12_12-16-07/policy-2025-11-12_12-18-08/runs/CartpoleSpinGPT-2025-11-12_12-18-08/nn/last_CartpoleSpinGPT_ep_50.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-12_12-16-07/env_iter0_response0_rewardonly.py
+cartpole_spin_super_fast:
+  environment: CartpoleSpin
+  policy_description: Control the cartpole to spin the pole continuously in the clockwise
+    direction at the fastest speed possible, maximizing rotational velocity.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-13_00-00-31/policy-2025-11-13_00-02-11/runs/CartpoleSpinGPT-2025-11-13_00-02-12/nn/last_CartpoleSpinGPT_ep_50.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-13_00-00-31/env_iter0_response0_rewardonly.py
+dancing_ant:
+  environment: Ant
+  policy_description: The ant robot performs a dance with rhythmic, lively, and upright
+    movements expressing joy and energy.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-25_14-54-34/policy-2025-11-25_14-58-50/runs/AntGPT-2025-11-25_14-58-50/nn/last_AntGPT_ep_500.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-25_14-54-34/env_iter0_response0_rewardonly.py
+walk_cheerily:
+  environment: Ant
+  policy_description: The ant robot walks forward energetically with a lively and
+    cheerful gait, expressing happiness.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-18_23-47-53/policy-2025-11-18_23-51-34/runs/AntGPT-2025-11-18_23-51-34/nn/last_AntGPT_ep_500.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-18_23-47-53/env_iter0_response0_rewardonly.py
+walk_sadly:
+  environment: Ant
+  policy_description: The ant robot walks forward slowly with low energy and a slouched
+    posture to convey a very sad emotion.
+  policy_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-13_15-39-44/policy-2025-11-13_15-44-08/runs/AntGPT-2025-11-13_15-44-08/nn/last_AntGPT_ep_500.pth
+  reward_code_path: /home/ttr/11-851-project/interface/outputs/eureka/2025-11-13_15-39-44/env_iter0_response0_rewardonly.py
