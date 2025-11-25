@@ -1,9 +1,5 @@
 # Robo-ly
 
-TODO:
-- [ ] Be able to run Eureka
-- [ ] Create new tasks
-
 ```
 cd ~/Eureka/eureka/utils
 python prune_env.py cartpole_spin
